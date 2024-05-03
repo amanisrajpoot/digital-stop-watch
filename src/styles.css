@@ -1,0 +1,47 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.stopwatch {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.time {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.start {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.pause {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.resume {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.stop {
+  background-color: #ffc107;
+  color: #000;
+}
+
+button:hover {
+  opacity: 0.8;
+}
